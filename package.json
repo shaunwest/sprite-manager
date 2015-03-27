@@ -1,0 +1,40 @@
+{
+  "name": "sprite-web",
+  "version": "0.0.1",
+  "description": "Sprite Web",
+  "main": "dist/sprite-web.min.js",
+  "dependencies": {
+    "express": "^4.10.7",
+    "jsdom": "^2.0.0",
+    "xmlhttprequest": "^1.7.0",
+    "kilo": "shaunwest/kilo",
+    "kilo-extra": "shaunwest/kilo-extra"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-nodemon": "^1.0.5",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.4.1",
+    "gulp-inject": "^1.1.1",
+    "gulp-karma": "0.0.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.1",
+    "karma": "^0.12.25",
+    "karma-jasmine": "^0.2.3",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "run-sequence": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shaunwest/sprite-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaunwest/sprite-web/issues"
+  },
+  "homepage": "https://github.com/shaunwest/sprite-web"
+}
